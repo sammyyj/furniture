@@ -14,7 +14,7 @@ import './HomeSectionOne.css'
 // import { PiChairThin } from "react-icons/pi";
 // import { IoBedOutline } from "react-icons/io5";
 // import { GiDesk } from "react-icons/gi";
-import Navbar from '../Navbar'
+// import Navbar from '../Navbar'
 
 const HomeSectionOne = () => {
 
