@@ -6,14 +6,14 @@ import banner1 from '../images/product-banner-img-1.png'
 import banner2 from '../images/product-banner-img-2.png'
 import banner3 from '../images/product-banner-img-3.png'
 import './HomeSectionOne.css'
-import { FaLongArrowAltRight } from "react-icons/fa";
-import { GoDotFill } from "react-icons/go";
-import { FaRegDotCircle } from "react-icons/fa";
-import { LuArmchair } from "react-icons/lu";
-import { PiArmchair } from "react-icons/pi";
-import { PiChairThin } from "react-icons/pi";
-import { IoBedOutline } from "react-icons/io5";
-import { GiDesk } from "react-icons/gi";
+// import { FaLongArrowAltRight } from "react-icons/fa";
+// import { GoDotFill } from "react-icons/go";
+// import { FaRegDotCircle } from "react-icons/fa";
+// import { LuArmchair } from "react-icons/lu";
+// import { PiArmchair } from "react-icons/pi";
+// import { PiChairThin } from "react-icons/pi";
+// import { IoBedOutline } from "react-icons/io5";
+// import { GiDesk } from "react-icons/gi";
 import Navbar from '../Navbar'
 
 const HomeSectionOne = () => {
@@ -43,9 +43,9 @@ const HomeSectionOne = () => {
 
   return (
     <div>
-    <Navbar theColorFunc={colorChangeFunc} navBarcolor = {lightModeState}/>
-
-    <div className={lightModeState === true ? 'lightMode' : 'darkMode'}>
+    {/* <Navbar theColorFunc={colorChangeFunc} navBarcolor = {lightModeState}/> */}
+    <h2>This is Home Section One</h2>
+    {/* <div className={lightModeState === true ? 'lightMode' : 'darkMode'}>
 
       <div className='dotDiv'>
         {showSection1 === true ? (
@@ -195,7 +195,7 @@ const HomeSectionOne = () => {
         </div>
       </div>
       
-    </div>
+    </div> */}
   </div>
 )
 }
