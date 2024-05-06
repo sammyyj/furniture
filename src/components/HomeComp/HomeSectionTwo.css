@@ -1,0 +1,261 @@
+
+.homeSectionTwo{
+    padding: 20px 10%;
+    margin-top: 100px;
+}
+
+
+.featuredDiv{
+    display: flex;
+    align-items: center;
+}
+
+.featuredDiv h2{
+    font-size: 30px;
+}
+
+.featuredDiv p{
+    margin-left: auto;
+}
+
+.listClass{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.listClass li{
+    list-style: none;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+
+/* .listClass li:hover{
+    color: green;
+} */
+
+
+
+.activeList{
+    color: orange;
+    border-bottom: 1px solid orange;
+    font-size: 15px;
+}
+
+.activeList:hover{
+    color: orange;
+}
+
+
+.productDiv{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.eachProduct{
+    position: relative;
+    cursor: pointer;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.images{
+    width: 100%;
+}
+
+
+.eachProduct h2{
+    padding: 10px 0;
+}
+
+.cartDiv{
+    display: flex;
+}
+
+.cartDiv h2{
+    font-size: 15px;
+    color: orange;
+}
+
+.cartDiv button{
+    margin-left: auto;
+    padding: 10px 30px;
+    font-size: 13px;
+    border: solid gainsboro 1px;
+    border-radius: 5px;
+}
+
+
+.cartDiv button:hover{
+    background-color: orange;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+
+.starDiv{
+    display: flex;
+    align-items: center;
+    color: orange;
+    gap: 5px;
+    padding: 10px 0;
+}
+
+.showDisplayIcons{
+    display: block;
+}
+
+.displayIcons{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    display: none;
+}
+
+
+.eachProduct:hover, .showDisplayIcons{
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.displayIcons div{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* ====== Section Two second div == */
+.saleDiv{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+.saleDivOne{
+    position: relative;
+    width: 70%;
+}
+
+.images1{
+    width: 100%;
+}
+
+
+.saleDivOneText{
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    text-align: left;
+    color: black;
+}
+
+.saleDivOneText h4{
+    font-size: 20px;
+}
+
+.saleDivOneText h2{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.saleDivOneText p{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.saleDivOneText button{
+    font-size: 15px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.saleDivOneText button:hover{
+    background-color: black;
+    transition: all 0.2s ease;
+    transform: scale(1.09);
+}
+
+
+
+.saleDivTwo{
+    width: 30%;
+    position: relative;
+}
+
+
+
+.saleDivTwoText{
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    text-align: left;
+    color: black;
+}
+
+.saleDivTwoText h4{
+    font-size: 20px;
+}
+
+.saleDivTwoText h2{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.saleDivTwoText p{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.saleDivTwoText button{
+    font-size: 15px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.saleDivTwoText button:hover{
+    background-color: black;
+    transition: all 0.2s ease;
+    transform: scale(1.09);
+}
+ 
+.images2{
+    width: 100%;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+   .homeSectionTwo{
+    display: grid;
+    
+   }
+
+
+}
+

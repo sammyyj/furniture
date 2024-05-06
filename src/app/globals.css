@@ -70,6 +70,13 @@
     --callout-border-rgb: 108, 108, 108;
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
+
+
+    --white-color : white;
+    --black : black;
+    --orange1 : orange;
+    --orange2 : orange;
+    --green: green;
   }
 }
 
@@ -85,15 +92,19 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+
+.lightMode {
+  background-color: white;
+  color: black;
 }
+
+
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
 
 a {
   color: inherit;
@@ -102,6 +113,6 @@ a {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }

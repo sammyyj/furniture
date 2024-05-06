@@ -1,0 +1,92 @@
+
+.bannerThreeSection{
+    padding: 50px 10%;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.bannerThreeSection h2{
+    text-align: center;
+
+}
+
+.bannerThreeSection h4{
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+
+.bannerThreeDiv {
+    display: flex;
+    gap: 30px;
+}
+
+
+.leftBanner{
+    width: 100%;
+}
+
+
+.eachLeftBanner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.eachLeftBanner p{
+    padding: 15px 0;
+}
+
+.eachLeftBanner span{
+    text-decoration: line-through;
+    color: gray;
+    padding-right: 10px;
+}
+
+
+.eachLeftBanner button{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.myBannImage{
+    width: 100px;
+    height: 100px;
+}
+
+.middleBanner{
+    width: 100%;
+}
+
+.middleBannerImage{
+    width: 100%;
+}
+
+
+.rightBanner{
+    width: 100%;
+}
+
+.BannerImage2{
+    width: 100%;
+}
+
+.bannerPlace{
+
+    position: relative;
+}
+
+.bannerPlaceText{
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    text-align: left;
+    color: black;
+}
