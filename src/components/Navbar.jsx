@@ -22,8 +22,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoSunnySharp } from "react-icons/io5";
 
 
-import Image from 'next/image';
-import logo from './Images/logo.png'
+// import image from 'next/image';
+import logo from './images/logo.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Link from 'next/link';
@@ -73,7 +73,7 @@ const Navbar = ({theColorFunc, navBarcolor}) => {
             </div>
 
             <div className='bottomNav'>
-                <Image src={logo} alt='' width={200} className='logo'/>
+                <Image src={logo} alt='this is logo'/>
 
                 <div className='bottomNavRight'>
                     <ul>
